@@ -6,19 +6,19 @@ class Data:
 
     home_buttons = [
         generate_single_button,
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton(text="🔄 Return Home 🔄", callback_data="home")]
     ]
 
     generate_button = [generate_single_button]
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ Status Bot dan Bot Lainnya ✨", url="https://t.me/venzproject/132")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("Cara Penggunaan ❔", callback_data="help"),
+            InlineKeyboardButton("🤔 Tentang 🤔", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("🔥 Bot Keren Lainnya 🔥", url="https://t.me/venzproject")],
     ]
 
     START = """
@@ -26,37 +26,37 @@ Hey {}
 
 Welcome to {}
 
-If you don't trust this bot, 
-1) stop reading this message
-2) delete this chat
+Jika Anda tidak mempercayai bot ini,
+1) berhenti membaca pesan ini
+2) hapus obrolan ini
 
-Still reading?
-You can use me to generate pyrogram (even version 2) and telethon string session. Use below buttons to learn more !
+Masih membaca?
+Anda dapat menggunakan saya untuk menghasilkan pyrogram (bahkan versi 2) dan sesi string telethon. Gunakan tombol di bawah ini untuk mempelajari lebih lanjut !
 
-By @StarkBots
+By @venzproject
     """
 
     HELP = """
-✨ **Available Commands** ✨
+✨ **Perintah yang tersedia** ✨
 
-/about - About The Bot
-/help - This Message
-/start - Start the Bot
-/generate - Generate Session
-/cancel - Cancel the process
-/restart - Cancel the process
+/about - Tentang Bot
+/help - Pesan ini
+/start - Mulai Bot
+/generate - Hasilkan Sesi
+/cancel - Batalkan proses
+/restart - Batalkan proses
 """
 
     ABOUT = """
-**About This Bot** 
+**Tentang Bot Ini** 
 
-Telegram Bot to generate Pyrogram and Telethon string session by @StarkBots
+Telegram Bot untuk menghasilkan sesi string Pyrogram dan Telethon oleh @venzproject
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
+Kode sumber : [Click Here](https://github.com/eldy020502/Venz-String)
 
-Framework : [Pyrogram](https://docs.pyrogram.org)
+Kerangka : [Pyrogram](https://docs.pyrogram.org)
 
-Language : [Python](https://www.python.org)
+Bahasa : [Python](https://www.python.org)
 
-Developer : @StarkProgrammer
+Pengembang : @moonscrsh
     """
